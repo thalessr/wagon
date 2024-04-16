@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gemspec
 
 source "https://rubygems.pkg.github.com/thalessr" do
-  gem "locomotivecms_coal", "1.8.0.alpha1"
+  gem "locomotivecms_coal", "1.8.0.alpha2"
 end
 
 # Mac OS X
