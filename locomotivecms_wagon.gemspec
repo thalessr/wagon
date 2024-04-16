@@ -33,6 +33,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'oj',                    '~> 3.16.1'
 
   gem.add_dependency 'locomotivecms_common',  '~> 0.6.0.alpha1'
+  gem.add_dependency 'locomotivecms_coal',    '~> 1.8.0.alpha1'
   gem.add_dependency 'locomotivecms_steam',   '~> 1.8.0.alpha1'
 
   gem.add_dependency 'haml',                  '~> 6.2.3'
