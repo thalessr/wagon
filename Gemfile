@@ -3,6 +3,10 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in locomotivecms_wagon.gemspec
 gemspec
 
+source "https://rubygems.pkg.github.com/thalessr" do
+  gem "locomotivecms_coal", "1.8.0.alpha1"
+end
+
 # Mac OS X
 gem 'rb-fsevent', '~> 0.10.3', require: 'rb-fsevent' if RUBY_PLATFORM.include?('darwin')
 
